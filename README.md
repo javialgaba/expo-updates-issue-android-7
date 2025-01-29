@@ -1,3 +1,17 @@
+# Expo Android Crash Reproduction
+
+A minimal reproduction repository demonstrating a critical issue where Expo Updates causes crash-on-launch behavior on Android 7 devices when using Expo SDK 52 with Expo Updates versions below 0.26.13.
+
+## Issue Overview
+
+This repository provides a minimal test case to reproduce and verify a compatibility issue between:
+
+- Expo SDK 52
+- Expo Updates (versions < 0.26.13)
+- Android 7 (Nougat) devices
+
+The app will crash immediately upon launch under these conditions, making it useful for debugging and verifying the fix.
+
 # Welcome to your Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
